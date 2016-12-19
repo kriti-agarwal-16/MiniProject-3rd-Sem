@@ -1,0 +1,56 @@
+
+
+                               [MINI PROJECT 2016]
+
+Applicant  Name : Kriti Agarwal
+Section: CC
+Class Roll No.: 34
+University Roll No.: 2010644
+
+Application Name: MiniProject.exe
+
+Description:
+	This application is designed in C-Language for a Mini-Project assigned to B.Tech. third Semester students in academic Session 2016-2017.
+	    
+	Problem Statement can be found at : http://www.csitgeu.org/mp32016.htm
+
+	Part 1 and Part 2 of Choice A has been chosen for this application which are as follows:
+	(1) Prof Gussadhar: As per the number of students present in the class on time check whether the angry professor's class will held or not.
+	(2) Probability of prime: From the range 1 to 1000000, Kalu picks a specific sub-range; find the probability of finding prime numbers.
+
+Features:
+	(1) Application receives two file name from command line as argument(first argument for Part1 and second argument for Part2).
+	(2) Uses have a choice whether he want to display output on screen or a file(name is also provided by the user).
+
+Error Message shown when:
+	(1) No or less argument is passed through command line.
+	(2) Wrong (Non-Existing) file is entered through command line.
+	(3) Wrong choice (other than 1,2 or 3) from Main Menu is chosen.
+	(4) Wrong choice (other than 1 or 2) for output is entered.
+	(5) Input file is empty.
+	(6) Input file contain characters and special characters.
+	(7) Number of test cases is not in range.
+	(8) Inputted sub-range is invalid (Kalu Pilu Game).
+	(9) Total students are less than the required attendance (Angry Professor's Class).
+	(10) Number of test cases is more and following test cases are less.
+
+Instructions:
+	(1) Command Line
+		>> First argument on command line should be name of application
+		>> Second argument should be input file for first program
+		>> Third argument should be input file for second program
+	(2) First input file
+		>> First line should contain a integer value denoting total number of test cases(T) 
+			where: 0<T<10000
+		>> Second line onwards test cases begins
+		
+	(3) Second input file
+		>> First line should contain a integer value denoting total number of test cases(T) 
+			where: 0<T<10000
+		>> Second line onwards test cases begins
+		>> Sub-range for each test case should be a positive integer less than 1000000.
+	(4) Name of output file should be less than 10 characters.
+
+Vulnerabilities:
+	# Any invalid format input other than mentioned above may glitch the output or program.
+
